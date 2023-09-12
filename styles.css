@@ -1,0 +1,52 @@
+body {
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+.best-gf {
+  font-size: 80px;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ button, .MarryMe {
+  display: grid;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+	height: 50px;
+	cursor: pointer;
+	background: #333;
+	margin: 10px;
+	border: none;
+	border-radius: 10px;
+	box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444, inset -5px -5px 10px #222;
+	color: #222;
+	font-size: 16px;
+
+ }
+ .noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+		-webkit-tap-highlight-color: transparent;
+}
+
+button:hover, .MarryMe:hover{
+	box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222, inset -5px -5px 10px #444;
+	font-size: 15px;
+	transition: 500ms;
+  color: #71b7f0;
+	text-shadow: 0px 0px 10px #71b7f0;
+
+} 
+
+button:focus, .MarryMe:focus {
+  outline: none;
+}
